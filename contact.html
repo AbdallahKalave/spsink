@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us | SPS INK</title>
+    <meta name="description"
+        content="Get in touch with SPS INK for business advisory, marketing, or general inquiries.">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Poppins:wght@400;500;600;700&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="container nav-container">
+            <a href="index.html" class="logo"><img src="assets/images/logo_new.png" alt="SPS INK Logo"
+                    style="height: 40px; mix-blend-mode: multiply;"></a>
+            <div class="mobile-toggle">
+                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+                    stroke-linecap="round" stroke-linejoin="round">
+                    <line x1="3" y1="12" x2="21" y2="12"></line>
+                    <line x1="3" y1="6" x2="21" y2="6"></line>
+                    <line x1="3" y1="18" x2="21" y2="18"></line>
+                </svg>
+            </div>
+            <div class="nav-menu">
+                <a href="index.html" class="nav-link">Home</a>
+                <a href="about.html" class="nav-link">About Us</a>
+                <a href="services.html" class="nav-link">Our Services</a>
+                <a href="contact.html" class="nav-link active btn btn-primary"
+                    style="color: white; padding: 10px 24px;">Contact Us</a>
+            </div>
+        </div>
+    </nav>
+
+    <section class="section normal-scroll" style="padding-top: 150px;">
+        <div class="container">
+            <div class="text-center reveal" style="margin-bottom: 60px;">
+                <h1 class="heading-xl">Let's Build Together</h1>
+                <p class="text-lead" style="max-width: 600px; margin: 24px auto;">Whether you have a question about our
+                    services or want to start a new project, we are here to help.</p>
+            </div>
+
+            <div class="grid grid-2" style="gap: 80px;">
+                <!-- Contact Info -->
+                <div class="reveal">
+                    <h2 class="heading-lg" style="margin-bottom: 32px;">Get in Touch</h2>
+
+                    <div style="margin-bottom: 40px;">
+                        <h3 class="heading-md" style="margin-bottom: 16px;">Headquarters</h3>
+                        <p style="margin-bottom: 8px;">SPS INK Tower, Level 12</p>
+                        <p style="margin-bottom: 8px;">Business Bay, Dubai</p>
+                        <p>United Arab Emirates</p>
+                    </div>
+
+                    <div style="margin-bottom: 40px;">
+                        <h3 class="heading-md" style="margin-bottom: 16px;">Contact</h3>
+                        <p class="flex items-center gap-4" style="margin-bottom: 12px;">
+                            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                                stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                <path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z">
+                                </path>
+                                <polyline points="22,6 12,13 2,6"></polyline>
+                            </svg>
+                            hello@spsink.com
+                        </p>
+                        <p class="flex items-center gap-4">
+                            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                                stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                <path
+                                    d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z">
+                                </path>
+                            </svg>
+                            +971 4 123 4567
+                        </p>
+                    </div>
+
+                    <!-- Map Embed Placeholder -->
+                    <div
+                        style="background: #e2e8f0; height: 250px; border-radius: 16px; display: flex; align-items: center; justify-content: center; color: #64748b;">
+                        Google Maps Embed
+                    </div>
+                </div>
+
+                <!-- Form -->
+                <div class="reveal card">
+                    <form>
+                        <div class="form-group">
+                            <label style="display: block; margin-bottom: 8px; font-weight: 500;">Full Name</label>
+                            <input type="text" class="form-control">
+                        </div>
+                        <div class="form-group">
+                            <label style="display: block; margin-bottom: 8px; font-weight: 500;">Email Address</label>
+                            <input type="email" class="form-control">
+                        </div>
+                        <div class="form-group">
+                            <label style="display: block; margin-bottom: 8px; font-weight: 500;">Type of Inquiry</label>
+                            <div class="custom-select-wrapper">
+                                <select class="form-control" style="display: none;" id="inquiry-select">
+                                    <option value="General Inquiry">General Inquiry</option>
+                                    <option value="Marketing Services">Marketing Services</option>
+                                    <option value="Business Advisory">Business Advisory</option>
+                                    <option value="Lifestyle Products">Lifestyle Products</option>
+                                </select>
+                                <div class="custom-select">
+                                    <div class="custom-select-trigger form-control">General Inquiry</div>
+                                    <div class="custom-options">
+                                        <div class="custom-option selected" data-value="General Inquiry">General Inquiry
+                                        </div>
+                                        <div class="custom-option" data-value="Marketing Services">Marketing Services
+                                        </div>
+                                        <div class="custom-option" data-value="Business Advisory">Business Advisory
+                                        </div>
+                                        <div class="custom-option" data-value="Lifestyle Products">Lifestyle Products
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <label style="display: block; margin-bottom: 8px; font-weight: 500;">Message</label>
+                            <textarea class="form-control" rows="5"></textarea>
+                        </div>
+                        <button type="submit" class="btn btn-primary" style="width: 100%; justify-content: center;">Send
+                            Message</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="grid grid-3">
+                <div class="footer-block">
+                    <a href="index.html" class="logo" style="margin-bottom: 20px; display: block;"><img
+                            src="assets/images/logo_new.png" alt="SPS INK Logo"
+                            style="height: 50px; mix-blend-mode: multiply;"></a>
+                    <p>Premium Corporate Advisory &<br>Lifestyle Solutions.</p>
+                </div>
+                <div class="footer-block">
+                    <h4 class="footer-heading">Services</h4>
+                    <ul class="footer-links">
+                        <li><a href="services.html#marketing">Marketing & Digital</a></li>
+                        <li><a href="services.html#advisory">Business Advisory</a></li>
+                        <li><a href="services.html#lifestyle">E-commerce & Lifestyle</a></li>
+                    </ul>
+                </div>
+                <div class="footer-block">
+                    <h4 class="footer-heading">Company</h4>
+                    <ul class="footer-links">
+                        <li><a href="about.html">About Us</a></li>
+                        <li><a href="contact.html">Contact Us</a></li>
+                        <li><a href="#">Privacy Policy</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div
+                style="border-top: 1px solid rgba(255,255,255,0.1); margin-top: 60px; padding-top: 20px; text-align: center; color: var(--color-secondary); font-size: 0.9rem;">
+                &copy; 2026 SPS INK. All rights reserved.
+            </div>
+        </div>
+    </footer>
+    <script src="assets/js/main.js"></script>
+</body>
+
+</html>
